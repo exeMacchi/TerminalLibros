@@ -31,7 +31,7 @@ namespace TerminalDeLibros
                     Console.Write("\nSeleccione una opción: ");
                     opcion = Convert.ToByte(Console.ReadLine());
 
-                    if (opcion > 5 || opcion < 1)
+                    if (opcion > 4 || opcion < 1)
                     {
                         Avisos.OpcionNoDisponible();  
                     }
@@ -42,7 +42,7 @@ namespace TerminalDeLibros
                     return 0;
                 }
 
-            } while (opcion > 5 || opcion < 1);
+            } while (opcion > 4 || opcion < 1);
 
             return opcion;
         }
